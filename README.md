@@ -12,7 +12,3 @@ This is a simple website created for an orphanage where users can donate money, 
 - HTML
 - CSS
 - JavaScript
-
-## How to Run:
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your browser to view the website.
