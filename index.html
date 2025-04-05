@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orphanage Donation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Orphanage of Hope</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#donateMoney">Donate Money</a></li>
+                    <li><a href="#donateItems">Donate Clothes/Food</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to the Orphanage of Hope!</h2>
+            <p>Join us in making a difference. Your contributions can change lives.</p>
+        </div>
+    </section>
+
+    <section id="donateMoney">
+        <h2>Donate Money</h2>
+        <form id="moneyDonationForm">
+            <label for="amount">Enter Donation Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount in USD" required>
+            <button type="submit">Donate Now</button>
+        </form>
+        <div id="donationStatus"></div>
+    </section>
+
+    <section id="donateItems">
+        <h2>Donate Clothes and Food</h2>
+        <p>You can also donate essential items like clothes and food to our children.</p>
+        <form id="itemDonationForm">
+            <label for="itemType">Item Type:</label>
+            <select id="itemType">
+                <option value="clothes">Clothes</option>
+                <option value="food">Food</option>
+            </select>
+            <br>
+            <label for="itemQuantity">Quantity:</label>
+            <input type="number" id="itemQuantity" required>
+            <button type="submit">Donate Items</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: orphanage@example.com</p>
+        <p>Phone: +1 234 567 890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Orphanage of Hope. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
