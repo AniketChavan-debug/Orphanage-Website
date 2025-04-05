@@ -1,2 +1,18 @@
-# Orphanage-Website
-Developed a dummy Orphanage Website where people can connect and make donation payments to the orphanage. People can also donate clothes and foods to the orphanage children.
+# Orphanage Donation Website
+
+This is a simple website created for an orphanage where users can donate money, clothes, and food. The website includes sections for making monetary donations, donating essential items like clothes and food, and getting in touch with the orphanage.
+
+## Features:
+- **Home Page**: Introduction to the orphanage and its mission.
+- **Donate Money**: Form to donate money to the orphanage.
+- **Donate Clothes/Food**: Form to donate clothes or food.
+- **Contact Page**: Information for contacting the orphanage.
+
+## Technologies Used:
+- HTML
+- CSS
+- JavaScript
+
+## How to Run:
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your browser to view the website.
